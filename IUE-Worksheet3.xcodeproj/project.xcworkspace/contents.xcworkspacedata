@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IUE-Worksheet3_Prep.xcodeproj">
+      location = "self:/Users/joaoramos/XCodeProjects/IUE-Worksheet3/IUE-Worksheet3.xcodeproj">
    </FileRef>
 </Workspace>

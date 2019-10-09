@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF52446B234D682900F7BF0C /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52446A234D682900F7BF0C /* PhotosCollectionViewController.swift */; };
+		BF52446D234D747200F7BF0C /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52446C234D747200F7BF0C /* PhotoCollectionViewCell.swift */; };
+		BF52446F234D7A5800F7BF0C /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52446E234D7A5800F7BF0C /* ContactsTableViewController.swift */; };
+		BF524471234D7A7200F7BF0C /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF524470234D7A7200F7BF0C /* Contact.swift */; };
+		BF524473234D7BDD00F7BF0C /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF524472234D7BDD00F7BF0C /* ContactTableViewCell.swift */; };
 		BF64BB63234CF79700A20B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64BB62234CF79700A20B30 /* AppDelegate.swift */; };
 		BF64BB65234CF79700A20B30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF64BB64234CF79700A20B30 /* ViewController.swift */; };
 		BF64BB68234CF79700A20B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF64BB66234CF79700A20B30 /* Main.storyboard */; };
@@ -34,17 +39,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF64BB5F234CF79700A20B30 /* IUE-Worksheet3_Prep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IUE-Worksheet3_Prep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF52446A234D682900F7BF0C /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		BF52446C234D747200F7BF0C /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF52446E234D7A5800F7BF0C /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		BF524470234D7A7200F7BF0C /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		BF524472234D7BDD00F7BF0C /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		BF64BB5F234CF79700A20B30 /* IUE-Worksheet3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IUE-Worksheet3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64BB62234CF79700A20B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF64BB64234CF79700A20B30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF64BB67234CF79700A20B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF64BB69234CF79900A20B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF64BB6C234CF79900A20B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF64BB6E234CF79900A20B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF64BB73234CF79900A20B30 /* IUE-Worksheet3_PrepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUE-Worksheet3_PrepTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF64BB73234CF79900A20B30 /* IUE-Worksheet3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUE-Worksheet3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64BB77234CF79900A20B30 /* IUE_Worksheet3_PrepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUE_Worksheet3_PrepTests.swift; sourceTree = "<group>"; };
 		BF64BB79234CF79900A20B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF64BB7E234CF79900A20B30 /* IUE-Worksheet3_PrepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUE-Worksheet3_PrepUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF64BB7E234CF79900A20B30 /* IUE-Worksheet3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IUE-Worksheet3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF64BB82234CF79900A20B30 /* IUE_Worksheet3_PrepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IUE_Worksheet3_PrepUITests.swift; sourceTree = "<group>"; };
 		BF64BB84234CF79900A20B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +87,7 @@
 		BF64BB56234CF79700A20B30 = {
 			isa = PBXGroup;
 			children = (
-				BF64BB61234CF79700A20B30 /* IUE-Worksheet3_Prep */,
+				BF64BB61234CF79700A20B30 /* IUE-Worksheet3 */,
 				BF64BB76234CF79900A20B30 /* IUE-Worksheet3_PrepTests */,
 				BF64BB81234CF79900A20B30 /* IUE-Worksheet3_PrepUITests */,
 				BF64BB60234CF79700A20B30 /* Products */,
@@ -87,14 +97,14 @@
 		BF64BB60234CF79700A20B30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF64BB5F234CF79700A20B30 /* IUE-Worksheet3_Prep.app */,
-				BF64BB73234CF79900A20B30 /* IUE-Worksheet3_PrepTests.xctest */,
-				BF64BB7E234CF79900A20B30 /* IUE-Worksheet3_PrepUITests.xctest */,
+				BF64BB5F234CF79700A20B30 /* IUE-Worksheet3.app */,
+				BF64BB73234CF79900A20B30 /* IUE-Worksheet3Tests.xctest */,
+				BF64BB7E234CF79900A20B30 /* IUE-Worksheet3UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF64BB61234CF79700A20B30 /* IUE-Worksheet3_Prep */ = {
+		BF64BB61234CF79700A20B30 /* IUE-Worksheet3 */ = {
 			isa = PBXGroup;
 			children = (
 				BF64BB62234CF79700A20B30 /* AppDelegate.swift */,
@@ -103,8 +113,13 @@
 				BF64BB69234CF79900A20B30 /* Assets.xcassets */,
 				BF64BB6B234CF79900A20B30 /* LaunchScreen.storyboard */,
 				BF64BB6E234CF79900A20B30 /* Info.plist */,
+				BF52446A234D682900F7BF0C /* PhotosCollectionViewController.swift */,
+				BF52446C234D747200F7BF0C /* PhotoCollectionViewCell.swift */,
+				BF52446E234D7A5800F7BF0C /* ContactsTableViewController.swift */,
+				BF524470234D7A7200F7BF0C /* Contact.swift */,
+				BF524472234D7BDD00F7BF0C /* ContactTableViewCell.swift */,
 			);
-			path = "IUE-Worksheet3_Prep";
+			path = "IUE-Worksheet3";
 			sourceTree = "<group>";
 		};
 		BF64BB76234CF79900A20B30 /* IUE-Worksheet3_PrepTests */ = {
@@ -128,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF64BB5E234CF79700A20B30 /* IUE-Worksheet3_Prep */ = {
+		BF64BB5E234CF79700A20B30 /* IUE-Worksheet3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF64BB87234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3_Prep" */;
+			buildConfigurationList = BF64BB87234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3" */;
 			buildPhases = (
 				BF64BB5B234CF79700A20B30 /* Sources */,
 				BF64BB5C234CF79700A20B30 /* Frameworks */,
@@ -140,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = "IUE-Worksheet3_Prep";
+			name = "IUE-Worksheet3";
 			productName = "IUE-Worksheet3_Prep";
-			productReference = BF64BB5F234CF79700A20B30 /* IUE-Worksheet3_Prep.app */;
+			productReference = BF64BB5F234CF79700A20B30 /* IUE-Worksheet3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF64BB72234CF79900A20B30 /* IUE-Worksheet3_PrepTests */ = {
+		BF64BB72234CF79900A20B30 /* IUE-Worksheet3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF64BB8A234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3_PrepTests" */;
+			buildConfigurationList = BF64BB8A234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3Tests" */;
 			buildPhases = (
 				BF64BB6F234CF79900A20B30 /* Sources */,
 				BF64BB70234CF79900A20B30 /* Frameworks */,
@@ -158,14 +173,14 @@
 			dependencies = (
 				BF64BB75234CF79900A20B30 /* PBXTargetDependency */,
 			);
-			name = "IUE-Worksheet3_PrepTests";
+			name = "IUE-Worksheet3Tests";
 			productName = "IUE-Worksheet3_PrepTests";
-			productReference = BF64BB73234CF79900A20B30 /* IUE-Worksheet3_PrepTests.xctest */;
+			productReference = BF64BB73234CF79900A20B30 /* IUE-Worksheet3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BF64BB7D234CF79900A20B30 /* IUE-Worksheet3_PrepUITests */ = {
+		BF64BB7D234CF79900A20B30 /* IUE-Worksheet3UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF64BB8D234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3_PrepUITests" */;
+			buildConfigurationList = BF64BB8D234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3UITests" */;
 			buildPhases = (
 				BF64BB7A234CF79900A20B30 /* Sources */,
 				BF64BB7B234CF79900A20B30 /* Frameworks */,
@@ -176,9 +191,9 @@
 			dependencies = (
 				BF64BB80234CF79900A20B30 /* PBXTargetDependency */,
 			);
-			name = "IUE-Worksheet3_PrepUITests";
+			name = "IUE-Worksheet3UITests";
 			productName = "IUE-Worksheet3_PrepUITests";
-			productReference = BF64BB7E234CF79900A20B30 /* IUE-Worksheet3_PrepUITests.xctest */;
+			productReference = BF64BB7E234CF79900A20B30 /* IUE-Worksheet3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF64BB5A234CF79700A20B30 /* Build configuration list for PBXProject "IUE-Worksheet3_Prep" */;
+			buildConfigurationList = BF64BB5A234CF79700A20B30 /* Build configuration list for PBXProject "IUE-Worksheet3" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF64BB5E234CF79700A20B30 /* IUE-Worksheet3_Prep */,
-				BF64BB72234CF79900A20B30 /* IUE-Worksheet3_PrepTests */,
-				BF64BB7D234CF79900A20B30 /* IUE-Worksheet3_PrepUITests */,
+				BF64BB5E234CF79700A20B30 /* IUE-Worksheet3 */,
+				BF64BB72234CF79900A20B30 /* IUE-Worksheet3Tests */,
+				BF64BB7D234CF79900A20B30 /* IUE-Worksheet3UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -256,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF524471234D7A7200F7BF0C /* Contact.swift in Sources */,
+				BF52446B234D682900F7BF0C /* PhotosCollectionViewController.swift in Sources */,
+				BF52446D234D747200F7BF0C /* PhotoCollectionViewCell.swift in Sources */,
+				BF52446F234D7A5800F7BF0C /* ContactsTableViewController.swift in Sources */,
+				BF524473234D7BDD00F7BF0C /* ContactTableViewCell.swift in Sources */,
 				BF64BB65234CF79700A20B30 /* ViewController.swift in Sources */,
 				BF64BB63234CF79700A20B30 /* AppDelegate.swift in Sources */,
 			);
@@ -282,12 +302,12 @@
 /* Begin PBXTargetDependency section */
 		BF64BB75234CF79900A20B30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF64BB5E234CF79700A20B30 /* IUE-Worksheet3_Prep */;
+			target = BF64BB5E234CF79700A20B30 /* IUE-Worksheet3 */;
 			targetProxy = BF64BB74234CF79900A20B30 /* PBXContainerItemProxy */;
 		};
 		BF64BB80234CF79900A20B30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF64BB5E234CF79700A20B30 /* IUE-Worksheet3_Prep */;
+			target = BF64BB5E234CF79700A20B30 /* IUE-Worksheet3 */;
 			targetProxy = BF64BB7F234CF79900A20B30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IUE-Worksheet3_Prep.app/IUE-Worksheet3_Prep";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IUE-Worksheet3.app/IUE-Worksheet3";
 			};
 			name = Debug;
 		};
@@ -502,7 +522,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IUE-Worksheet3_Prep.app/IUE-Worksheet3_Prep";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IUE-Worksheet3.app/IUE-Worksheet3";
 			};
 			name = Release;
 		};
@@ -549,7 +569,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF64BB5A234CF79700A20B30 /* Build configuration list for PBXProject "IUE-Worksheet3_Prep" */ = {
+		BF64BB5A234CF79700A20B30 /* Build configuration list for PBXProject "IUE-Worksheet3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF64BB85234CF79900A20B30 /* Debug */,
@@ -558,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF64BB87234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3_Prep" */ = {
+		BF64BB87234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF64BB88234CF79900A20B30 /* Debug */,
@@ -567,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF64BB8A234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3_PrepTests" */ = {
+		BF64BB8A234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF64BB8B234CF79900A20B30 /* Debug */,
@@ -576,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF64BB8D234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3_PrepUITests" */ = {
+		BF64BB8D234CF79900A20B30 /* Build configuration list for PBXNativeTarget "IUE-Worksheet3UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF64BB8E234CF79900A20B30 /* Debug */,
