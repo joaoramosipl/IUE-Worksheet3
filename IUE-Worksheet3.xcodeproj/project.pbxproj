@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF17816E2367A495006180CD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF17816D2367A495006180CD /* ProfileViewController.swift */; };
 		BF52446B234D682900F7BF0C /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52446A234D682900F7BF0C /* PhotosCollectionViewController.swift */; };
 		BF52446D234D747200F7BF0C /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52446C234D747200F7BF0C /* PhotoCollectionViewCell.swift */; };
 		BF52446F234D7A5800F7BF0C /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF52446E234D7A5800F7BF0C /* ContactsTableViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF17816D2367A495006180CD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BF52446A234D682900F7BF0C /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		BF52446C234D747200F7BF0C /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 		BF52446E234D7A5800F7BF0C /* ContactsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				BF52446E234D7A5800F7BF0C /* ContactsTableViewController.swift */,
 				BF524470234D7A7200F7BF0C /* Contact.swift */,
 				BF524472234D7BDD00F7BF0C /* ContactTableViewCell.swift */,
+				BF17816D2367A495006180CD /* ProfileViewController.swift */,
 			);
 			path = "IUE-Worksheet3";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				BF52446F234D7A5800F7BF0C /* ContactsTableViewController.swift in Sources */,
 				BF524473234D7BDD00F7BF0C /* ContactTableViewCell.swift in Sources */,
 				BF64BB65234CF79700A20B30 /* ViewController.swift in Sources */,
+				BF17816E2367A495006180CD /* ProfileViewController.swift in Sources */,
 				BF64BB63234CF79700A20B30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,12 +458,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BRT57ZAX67;
-				INFOPLIST_FILE = "IUE-Worksheet3_Prep/Info.plist";
+				INFOPLIST_FILE = "IUE-Worksheet3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pt.ipleiria.estg.IUE-Worksheet3-Prep";
+				PRODUCT_BUNDLE_IDENTIFIER = "pt.ipleiria.estg.IUE-Worksheet3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -472,12 +476,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BRT57ZAX67;
-				INFOPLIST_FILE = "IUE-Worksheet3_Prep/Info.plist";
+				INFOPLIST_FILE = "IUE-Worksheet3/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "pt.ipleiria.estg.IUE-Worksheet3-Prep";
+				PRODUCT_BUNDLE_IDENTIFIER = "pt.ipleiria.estg.IUE-Worksheet3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

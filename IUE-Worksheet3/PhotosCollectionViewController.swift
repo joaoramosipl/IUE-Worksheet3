@@ -38,7 +38,7 @@ class PhotosCollectionViewController: UICollectionViewController, UICollectionVi
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         let paddingSpace = sectionInsets.left * (itemsPerRow + 1)
-        let itemWidth = (view.frame.width - paddingSpace) / itemsPerRow
+        let itemWidth = (view.safeAreaLayoutGuide.layoutFrame.width - paddingSpace) / itemsPerRow
         
         return CGSize(width: itemWidth, height: itemWidth)
     }
@@ -49,5 +49,11 @@ class PhotosCollectionViewController: UICollectionViewController, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return sectionInsets.left
+    }
+
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        
+        collectionViewLayout.invalidateLayout()
     }
 }
